@@ -34,9 +34,9 @@ clear&&clear
 echo -e "\033[1;31m———————————————————————————————————————————————————\033[1;37m"
 echo -e "\033[1;32m              PAYLOAD + SSL |by: LAG13 "
 echo -e "\033[1;31m———————————————————————————————————————————————————\033[1;37m"
-echo -e "\033[1;36m  SCRIPT CONFIGURAÇÃO AUTOMÁTICA SUPER SCRIPTS "
+echo -e "\033[1;36m  SCRIPT CONFIGURAÇÃO AUTOMÁTICA SUPER SCIPTS "
 echo -e "\033[1;31m———————————————————————————————————————————————————\033[1;37m"
-echo -e "\033[1;37mRequiere tener el puerto libre ,80 y el 443"
+echo -e "\033[1;37mRequer ter a porta livre ,80 y el 443"
 echo
 echo -e "\033[1;33m                 INSTALANDO SSL... "
 inst_ssl () {
@@ -58,8 +58,8 @@ rm -rf /root/stunnel.key
 fun_bar 'inst_ssl'
 echo -e "\033[1;33m                 CONFIGURANDO SSL.. "
 fun_bar 'inst_ssl'
-echo -e "\033[1;37m Mensaje en el mini Banner por defecto (SSL + Pay) \033[1;36m"
-echo -e "\033[1;37m No exagerar en el mini Banner  \033[1;36m"
+echo -e "\033[1;37m Mensagem no mini Banner por padrão (SSL + Pay) \033[1;36m"
+echo -e "\033[1;37m Não exagere no mini Banner  \033[1;36m"
 echo -e "\e[0;31m Soporta HTML\e[0m"
 read -p " :" msgbanner
 [[ "$msgbanner" = "" ]]&& msgbanner="SSL + Pay"
