@@ -34,7 +34,7 @@ clear&&clear
 echo -e "\033[1;31m———————————————————————————————————————————————————\033[1;37m"
 echo -e "\033[1;32m              PAYLOAD + SSL |by: LAG13 "
 echo -e "\033[1;31m———————————————————————————————————————————————————\033[1;37m"
-echo -e "\033[1;36m              SCRIPT AUTOCONFIGURACION "
+echo -e "\033[1;36m        SCRIPT CONFIGURACAO AUTOMÁTICA SUPER SCIPTS "
 echo -e "\033[1;31m———————————————————————————————————————————————————\033[1;37m"
 echo -e "\033[1;37mRequiere tener el puerto libre ,80 y el 443"
 echo
